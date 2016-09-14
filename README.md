@@ -9,8 +9,8 @@ begin
     max := 0;
     min := 0;
     k := 0;
-    assign(fin, 'C:\Users\temp\Desktop\input.txt');
-    assign(fout, 'C:\Users\temp\Desktop\output.txt');
+    assign(fin, 'input.txt');
+    assign(fout, 'output.txt');
     reset(fin);
     rewrite(fout);
     while not eof(fin) do
